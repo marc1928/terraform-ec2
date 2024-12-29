@@ -13,6 +13,14 @@ variable "Name" {
   default = "web server"
 }
 
+variable "tags" {
+  type        = map(string)
+  description = "Tags pour l'instance EC2"
+  default = {
+    Name        = "Web-server"
+    Environment = "Dev"
+  }
+}
 variable "ssh_key_location" {
   type = string
   default = "key/id_rsa.pub"

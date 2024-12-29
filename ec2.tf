@@ -10,7 +10,7 @@ resource "aws_instance" "webserver" {
 
 
   tags = {
-    Name = "web-${var.Name}"
+    Name = vars.tags
   }
 }
 
