@@ -8,7 +8,7 @@
 
 ## Project Structure
 
-- `main.tf`: This is the main Terraform configuration file. It defines the resource, and data blocks.
+- `ec2.tf`: This is the main Terraform configuration file. It defines the resource, and data blocks.
 - `variables.tf`: This file defines the variables used in the Terraform configuration.
 - `outputs.tf`: This file defines the outputs of the Terraform configuration.
 - `provider : This file defines the AWS provider for the Terraform configuration.
